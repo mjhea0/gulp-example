@@ -70,4 +70,4 @@ gulp.task('watch', function() {
   gulp.watch(paths.scripts, ['lint']);
 });
 
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default', ['browser-sync', 'watch'], function(){});
