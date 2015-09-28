@@ -1,5 +1,5 @@
 // add scripts
 
 $(document).on('ready', function() {
-  console.log('sanity!');
+  console.log('sanity chck!');
 });
